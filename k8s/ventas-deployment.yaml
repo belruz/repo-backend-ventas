@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend-ventas
-          image: TU_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/innovatech-backend-ventas:eks-v1
+          image: 497264583112.dkr.ecr.us-east-1.amazonaws.com/innovatech-backend-ventas:eks-v1
           ports:
             - containerPort: 8080
           env:
